@@ -1,11 +1,12 @@
 footer {
   position: relative;
   background-color: $text-color;
+  min-height: 200px;
 
   .header-primary {
     position: relative;
     height: auto;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    // border-bottom: 2px solid rgba(255, 255, 255, 0.1);
 
     .navigation {
       background-color: transparent;
@@ -37,7 +38,7 @@ footer {
       display: inline-block;
       text-align: right;
       margin-left: 15px;
-      width: 60px; 
+      width: 60px;
       height: 60px;
       padding: 15px;
       background-color: #fff;
@@ -56,7 +57,7 @@ footer {
     font-size: 18px;
     font-weight: 700;
     color: rgba(255, 255, 255, 1);
-    
+
   }
   button, input {
     display: inline-block;
@@ -82,7 +83,7 @@ footer {
   }
 }
 
-  
+
 @media screen and (max-width: $screen-xs-max) {
   footer {
     .header-primary {
@@ -110,7 +111,7 @@ footer {
     }
     button {
       width: 40%;
-    } 
+    }
 
     .footer-content {
       padding: 15px 0 30px;

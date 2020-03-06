@@ -6,19 +6,38 @@
   z-index: 999;
 
   .logo {
-    width: 173px;
-    height: 80px;
-    a {
-      display: block;
-      padding: 26px 30px;
+    position: absolute;
+    top: 8px;
+    left: 40px;
+  }
+
+  .logo-text {
+    font-size: 1.25em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    line-height: 1.2;
+    overflow-wrap: break-word;
+    color: $brand-primary;
+    &:hover {
+      color: $primary-color;
     }
   }
+
+  // .logo {
+  //   width: 173px;
+  //   height: 80px;
+  //   a {
+  //     display: block;
+  //     padding: 26px 30px;
+  //   }
+  // }
 
   ul {
     margin: 0;
   }
 
   .navigation {
+    font-family: $font-family-base;
     position: absolute;
     top: 28px;
     right: 15px;
@@ -29,9 +48,9 @@
     a {
       font-size: 18px;
       font-weight: 700;
-      color: $text-color;
+      color: #B3B5B6;
       &.active, &:hover, &:focus{
-        color: $primary-color;
+        color: #B3B5B6;
       }
     }
     @media screen and (max-width: $screen-xs-max){

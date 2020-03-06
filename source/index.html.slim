@@ -1,22 +1,40 @@
 ---
-title: Kaldi - Middleman + Netlify CMS Example
+title: Annie Trevillian
 ---
 
 section.hero style=background_image(image_path(data.pages.home.hero.image))
-  .caption
-    .row
-      h1 = data.pages.home.hero.title
+
+
+  .main-title-container
+    .main-heading
+      h1
+        | #{data.pages.home.hero.title}
+
+        p
+          | #{data.pages.home.hero.subtitle}
+
 
 section.homepage-story
   .container
-    .row
+    .row.homepage-story-row
       .story-content
+        = image_tag data.pages.home.about_image, class: "about-portrait"
         = markdown data.pages.home.story
+
+
+section.homepage-news.news
+  .container
+    h2
+      | Projects
+    .news-items
+      //get the first two most recent posts
+      - blog.articles.first(2).each do | article |
+        = partial 'partials/news/news_item', locals: {article: article}
 
 section.homepage-products.products
   .container
     h2
-      | Products
+      | Shop
     .row
       //product is structured: ['filename', 'data']
       //sort by newest product
@@ -24,12 +42,3 @@ section.homepage-products.products
 
         //to get the actual data:
         = partial 'partials/products/product', locals: {product: product[1]}
-
-section.homepage-news.news
-  .container
-    h2
-      | News
-    .news-items
-      //get the first two most recent posts
-      - blog.articles.first(2).each do | article |
-        = partial 'partials/news/news_item', locals: {article: article}
