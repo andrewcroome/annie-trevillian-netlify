@@ -30,7 +30,7 @@ const ProductPreview = ({ entry, widgetFor }) => {
         <div className="meta">
           <h1>{data.title}</h1>
           <div className="price">
-            <span>{`€${data.price}`}</span>
+            <span>{`${data.price}`}</span>
           </div>
         </div>
         <div className="body">{widgetFor('body')}</div>
