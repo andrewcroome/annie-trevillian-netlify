@@ -29,7 +29,7 @@
     padding: 10px 30px;
   }
 
-  .title, .price {
+  .title {
     display: inline-block;
   }
 
@@ -38,8 +38,7 @@
   }
 
   .price {
-    float: right;
-    font-size: 24px;
+    font-size: 22px;
     color: $primary-color;
   }
 

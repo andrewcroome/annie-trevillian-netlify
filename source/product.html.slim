@@ -4,13 +4,11 @@
     .meta
       h1 = product.title
 
-      .weight
-        - weight = data.settings.units.weight || 'kg'
-        span = product.weight.to_s + weight
-
       .price
         - currency = data.settings.units.currency || '$'
         span = currency + product.price.to_s
+
+      .shipping-note Price includes shipping within Australia
 
     .body
       = markdown product.body
