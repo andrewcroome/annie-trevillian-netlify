@@ -1,5 +1,5 @@
 ---
-title: Shine Dome
+title: Shine Dome 2017
 date: 2020-03-19T05:43:56.211Z
 description: Digital Print available on textile or archival paper
 image: /images/uploads/sfshine-dome-a4.jpg
