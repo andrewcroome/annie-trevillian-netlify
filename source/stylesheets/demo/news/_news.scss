@@ -54,11 +54,11 @@
     font-size: 32px;
     margin-top: 0;
   }
-  
+
   p {
     margin-top: 15px;
   }
-  
+
   a {
     color: $text-color;
     &:hover, &:focus {
@@ -114,4 +114,20 @@
       }
     }
   }
+}
+
+button {
+  width: 20%;
+  background: $primary-color;
+  color: #fff;
+  border-radius: 0 4px 4px 0;
+  font-weight: 700;
+}
+
+.form-field input, textarea {
+  min-width: 33%;
+}
+
+.contact-form {
+  margin-bottom: 16rem;
 }

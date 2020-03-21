@@ -1,0 +1,23 @@
+section.homepage-news.news
+  .container
+    h2
+      | Contact
+
+    p You can contact Annie using this form.
+
+    form.contact-form name="contact" method="POST" data-nelify="true"
+      p
+        label for="name" Your name
+        .form-field
+          input type="text" name="name"
+      p
+        label for="email" Your email
+        .form-field
+          input type="email" name="email"
+
+      p
+        label for="message" Message
+        .form-field
+          textarea name="message" rows="5" cols="33"
+
+      button Submit
