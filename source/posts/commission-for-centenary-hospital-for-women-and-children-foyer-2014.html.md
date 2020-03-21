@@ -1,6 +1,6 @@
 ---
 title: Commission for Centenary Hospital for Women and Children foyer 2014
-date: 2020-03-18T06:47:00.000Z
+date: 2020-03-14T06:47:00.000Z
 description: Digital print on vinyl installed onto glass
 image: /images/uploads/a-trevillian-3-.jpg
 ---
