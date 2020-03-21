@@ -28,8 +28,10 @@ section.homepage-news.news
       | Projects
     .news-items
       //get the first two most recent posts
-      - blog.articles.first(2).each do | article |
+      - blog.articles.first(4).each do | article |
         = partial 'partials/news/news_item', locals: {article: article}
+    p
+      a.view-all-link href="/projects" View all projects >
 
 section.homepage-products.products
   .container
@@ -42,3 +44,6 @@ section.homepage-products.products
 
         //to get the actual data:
         = partial 'partials/products/product', locals: {product: product[1]}
+
+    p
+      a.view-all-link href="/products" View all products >

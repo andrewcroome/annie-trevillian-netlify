@@ -208,3 +208,12 @@ address {
   font-style: normal;
   line-height: $line-height-base;
 }
+
+.view-all-link {
+  padding-left: 0.5rem;
+  color: $text-color;
+  &:hover, &:focus {
+    color: $text-color;
+    text-decoration: none;
+  }
+}
