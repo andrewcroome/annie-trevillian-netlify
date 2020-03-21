@@ -1,6 +1,6 @@
 ---
 title: What still remains 2012
-date: 2020-03-19T07:25:55.788Z
+date: 2020-03-03T07:25:55.788Z
 description: Commission for site specific artwork for ACT Heritage Unit
 image: /images/uploads/2.farming.jpg
 ---
