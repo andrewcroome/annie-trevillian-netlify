@@ -2,7 +2,7 @@
 title: Wallpaper 2019
 date: 2020-03-21T06:39:09.634Z
 description: Canberra birds and flowers digitally printed on wallpaper
-image: /images/uploads/twins-wallpaper.jpg
+image: /images/uploads/annie-trevillian-wallpaper-design-web-2019.jpg
 ---
 Annie Trevillian and her twin Lynnie Plate in Annie Trevillian printed textiles in front of wallpaper designed for an entrance based on Canberra flora and fauna. 
 
