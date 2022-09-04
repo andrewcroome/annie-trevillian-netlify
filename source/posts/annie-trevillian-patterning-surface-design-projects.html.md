@@ -1,5 +1,5 @@
 ---
-title: "Annie Trevillian. Patterning: surface design projects"
+title: "2022 Annie Trevillian. Patterning: surface design projects"
 date: 2022-09-04T22:20:00.488Z
 description: Annie Trevillian exhibition at Megalo Print Studio www.megalo.org
 image: /images/uploads/atmedrelease-for-atweb.jpg
